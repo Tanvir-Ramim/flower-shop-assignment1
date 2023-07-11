@@ -112,7 +112,8 @@ header {
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
-.f-flower-back2{
+
+.f-flower-back2 {
     color: #272727;
     text-align: center;
     font-size: 19px;
@@ -144,4 +145,27 @@ header {
     margin-top: 40px;
     gap: 50px;
 
+}
+
+/* optional secton */
+
+.optional {
+    width: 980px;
+    height: 160px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.optoin-1{
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.optoinal-icon{
+       width: 60px;
 }
