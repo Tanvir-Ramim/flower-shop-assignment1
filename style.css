@@ -258,34 +258,78 @@ header {
 .review1 {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-     width: 270px;
-     height: 280px;
-     text-align: center;
-     padding-top:30px;
-     box-shadow: 4px 4px 4px gray;
+    width: 270px;
+    height: 280px;
+    text-align: center;
+    padding-top: 30px;
+    box-shadow: 4px 4px 4px gray;
 }
-.review-pic{
+
+.review-pic {
     height: 80px;
     width: 80px;
     border-radius: 50px;
     margin-bottom: -20px;
 }
-.reivew-text{
+
+.reivew-text {
     color: rgba(39, 39, 39, 0.60);
     padding-top: 20px;
 }
-.review-icon{
+
+.review-icon {
     width: 180px;
     height: 120px;
 }
-.reivew-name{
+
+.reivew-name {
     color: rgba(39, 39, 39, 0.9);
     padding-top: 15px;
 
 }
-.review-section{
+
+.review-section {
     display: flex;
     justify-content: center;
     gap: 120px;
     margin-top: 30px;
+}
+
+/* footer section */
+footer {
+    height: 380px;
+    background: #111010;
+    margin-top: 80px;
+}
+
+.footer-title {
+    color: white;
+    /* font-family: Lato; */
+    font-size: 52px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer-para {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer-last-para {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+/* .footer-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+.footer-div2{
+    padding-top: 100px;
 }
