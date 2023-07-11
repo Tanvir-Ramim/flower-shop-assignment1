@@ -199,13 +199,54 @@ header {
     width: 200px;
     height: 230px;
 }
-.insta-des{
+
+.insta-des {
     margin-top: 110px;
+    margin-bottom: 40px;
 }
-.insta-pic{
+
+.insta-pic {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 78px;
     margin-top: 25px;
+}
+/* get section */
+.bnt-get{
+    padding: 20px 25px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.get-input{
+    width: 500px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    margin-left: 50px;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+
+.get-2nd{
+    padding-bottom: 40px;
+
+}
+.get-section-main{
+    background-image: url('./flower-asset/Rectangle\ 9.png');
+    background-size: cover;
+    width: 1050px;
+    height: 270px;
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    
 }
